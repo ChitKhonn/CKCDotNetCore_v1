@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingDotNetCore.ConsoleApp", "TestingDotNetCore.ConsoleApp\TestingDotNetCore.ConsoleApp.csproj", "{176692E8-8BD5-4019-89FD-145C7187749E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CKCDotNetCore.ConsoleApp", "TestingDotNetCore.ConsoleApp\CKCDotNetCore.ConsoleApp.csproj", "{176692E8-8BD5-4019-89FD-145C7187749E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKCDotNetCore.RestApi", "CKCDotNetCore.RestApi\CKCDotNetCore.RestApi.csproj", "{B1B37666-6394-421C-A5B2-8B50F96E7C20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CKCDotNetCore.RestApi", "CKCDotNetCore.RestApi\CKCDotNetCore.RestApi.csproj", "{B1B37666-6394-421C-A5B2-8B50F96E7C20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

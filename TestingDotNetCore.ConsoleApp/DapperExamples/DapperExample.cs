@@ -7,9 +7,9 @@ using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
-using TestingDotNetCore.ConsoleApp.Model;
+using CKCDotNetCore.ConsoleApp.Model;
 
-namespace TestingDotNetCore.ConsoleApp.DapperExamples
+namespace CKCDotNetCore.ConsoleApp.DapperExamples
 {
     internal class DapperExample
     {

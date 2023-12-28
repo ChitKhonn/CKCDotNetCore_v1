@@ -6,9 +6,9 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestingDotNetCore.ConsoleApp.Model;
+using CKCDotNetCore.ConsoleApp.Model;
 
-namespace TestingDotNetCore.ConsoleApp.EFCoreExamples
+namespace CKCDotNetCore.ConsoleApp.EFCoreExamples
 {
     internal class EFCoreExample
     {

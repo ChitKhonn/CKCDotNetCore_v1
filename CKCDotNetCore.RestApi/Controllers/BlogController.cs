@@ -11,7 +11,9 @@ namespace CKCDotNetCore.RestApi.Controllers
         [HttpGet]
         public IActionResult GetBlogs()
         {
-            return Ok("get");
+            AppDbContext db = new AppDbContext();
+            var lst = db.Blogs.ToList();
+            return Ok(lst); 
         }
 
         [HttpPost]

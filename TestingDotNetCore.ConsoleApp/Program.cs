@@ -1,8 +1,8 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
-using TestingDotNetCore.ConsoleApp.AdoDotNetExamples;
-using TestingDotNetCore.ConsoleApp.DapperExamples;
-using TestingDotNetCore.ConsoleApp.EFCoreExamples;
+using CKCDotNetCore.ConsoleApp.AdoDotNetExamples;
+using CKCDotNetCore.ConsoleApp.DapperExamples;
+using CKCDotNetCore.ConsoleApp.EFCoreExamples;
 
 Console.WriteLine("Hello, World!");
 
