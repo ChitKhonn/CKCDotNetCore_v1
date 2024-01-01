@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;   
-using CKCDotNetCore.ConsoleApp.Model;
+using CKCDotNetCore.RestApi.Model;
 
 namespace CKCDotNetCore.RestApi
 {
