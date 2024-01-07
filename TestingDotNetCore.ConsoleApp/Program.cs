@@ -3,8 +3,9 @@ using System.Data.SqlClient;
 using CKCDotNetCore.ConsoleApp.AdoDotNetExamples;
 using CKCDotNetCore.ConsoleApp.DapperExamples;
 using CKCDotNetCore.ConsoleApp.EFCoreExamples;
-using CKCDotNetCore.ConsoleApp.HttpClientExample;
-using CKCDotNetCore.ConsoleApp.RestClientExample;
+//using CKCDotNetCore.ConsoleApp.HttpClientExample;
+using CKCDotNetCore.ConsoleApp.RefitExamples;
+//using CKCDotNetCore.ConsoleApp.RestClientExample;
 using CKCDotNetCore.ConsoleApp.RestClientExamples;
 
 Console.WriteLine("Hello, World!");
@@ -23,8 +24,11 @@ Console.WriteLine("Hello, World!");
 //HttpClientExample httpClientExample = new HttpClientExample();
 //await httpClientExample.Run();
 
-RestClientExample restClientExample = new RestClientExample();
-await restClientExample.Run();
+//RestClientExample restClientExample = new RestClientExample();
+//await restClientExample.Run();
+
+RefitExample reft = new RefitExample();
+await reft.Run();
 
 Console.ReadKey();
 
